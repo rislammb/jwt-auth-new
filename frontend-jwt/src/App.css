@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b4b4b4;
+  font-size: 16px;
+  color: #222;
+}
+
+.App {
+  width: 90%;
+  max-width: 700px;
+  margin: 15px auto;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 131, 131);
+}
+a:hover {
+  opacity: 0.7;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  background-color: #fff;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+ul li a {
+  color: dodgerblue;
+}
+
+ul li a:hover {
+  color: darkorchid;
+}
+ul li button {
+  background-color: inherit;
+  border: none;
+  color: dodgerblue;
+}
+
+.content {
+  padding: 20px 0;
+}
+
+.form-wrapper {
+  padding: 20px 0;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.form-wrapper h2 {
+  color: rgb(199, 46, 186);
+  padding: 20px 0;
+  text-align: center;
+}
+.form-wrapper span {
+  font-size: 14px;
+}
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+}
+
+.input-group button {
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  background-color: rgb(85, 102, 255);
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
